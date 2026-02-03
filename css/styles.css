@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0f1115;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 60px;
+  background: linear-gradient(180deg, #111318, #0d0f13);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #1900ff;
+}
+
+.nav {
+  display: flex;
+  gap: 35px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #1900ff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-hire {
+  background: #1900ff;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-hire:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px #1900ff;
+}
+
+.btn-icon {
+  background: #1900ff;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-icon:hover {
+  transform: scale(1.1);
+}
