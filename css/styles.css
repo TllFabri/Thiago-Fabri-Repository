@@ -28,7 +28,7 @@ body {
 }
 
 .logo span {
-  color: #1900ff;
+  color: #00FFFF;
 }
 
 .nav {
@@ -51,7 +51,7 @@ body {
 }
 
 .nav a:hover {
-  color: #1900ff;
+  color: #00FFFF;
 }
 
 .actions {
@@ -61,7 +61,7 @@ body {
 }
 
 .btn-hire {
-  background: #1900ff;
+  background: #00FFFF;
   color: black;
   padding: 10px 22px;
   border-radius: 999px;
@@ -72,11 +72,11 @@ body {
 
 .btn-hire:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px #1900ff;
+  box-shadow: 0 5px 15px #00FFFF;
 }
 
 .btn-icon {
-  background: #1900ff;
+  background: #00FFFF;
   border: none;
   color: black;
   font-weight: bold;
