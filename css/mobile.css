@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-photo img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+}
