@@ -6,14 +6,14 @@
 }
 
 body {
-  background-color: #0f1115;
+  background-color: black;
   color: white;
 }
 
 .header {
   width: 100%;
   padding: 20px 60px;
-  background: linear-gradient(180deg, #111318, #0d0f13);
+  background: linear-gradient(180deg, black, black);
 }
 
 .container {
@@ -64,11 +64,12 @@ body {
   background: #00FFFF;
   color: black;
   padding: 10px 22px;
-  border-radius: 999px;
+  border-radius: 6px; /* ← agora é retangular */
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
 }
+
 
 .btn-hire:hover {
   transform: translateY(-2px);
@@ -84,6 +85,11 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.btn-icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 .btn-icon:hover {
