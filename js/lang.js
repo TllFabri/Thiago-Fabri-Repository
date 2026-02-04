@@ -1,7 +1,7 @@
 const translations = {
   pt: {
     home: "Início",
-    resume: "Currículo",
+    resume: "Sobre mim",
     projects: "Projetos",
     hire: "Fale comigo"
   },
