@@ -23,13 +23,12 @@ body {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
 }
 
-.logo span {
-  color: #00FFFF;
-}
 
 .nav {
   display: flex;
